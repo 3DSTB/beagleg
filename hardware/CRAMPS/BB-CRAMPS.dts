@@ -7,7 +7,7 @@
  * published by the Free Software Foundation
  *
  * To create the binary representation that the device manager can handle, run
- *   make BeagleG-CRAMPS-00A0.dtbo
+ *   make BB-CRAMPS-00A0.dtbo
  * See beagleg-cramps-cape-pinmux.sh how to enable.
  */
 
@@ -16,7 +16,7 @@
 
 /{
     compatible = "ti,beaglebone", "ti,beaglebone-black", "ti,beaglebone-green";
-    part-number = "BeagleG-CRAMPS";  /* BeagleG/CRAMPS 'cape' */
+    part-number = "BB-CRAMPS";  /* BeagleG/CRAMPS 'cape' */
     version = "00A0";
 
     exclusive-use = "pruss",  // Programmable realtime unit
