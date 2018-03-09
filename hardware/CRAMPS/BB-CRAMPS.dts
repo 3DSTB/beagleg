@@ -34,11 +34,11 @@
                 pinctrl-single,pins = <
 				/* P9.9   Power Button */
 				/* P9.10  Reset Button */
-		    0x044 0x07	/* P9.23  GPIO1_17 output, pulldown  machine_pwr MACHINE_PWR */
+		    0x044 0x07	/* P9.23  GPIO1_17 output, pulldown  machine_pwr */
 		    0x048 0x17	/* P9.14  GPIO1_18 output, pullup    all_stepper enable_pin */
-		    0x07c 0x07	/* P8.26  GPIO1_29 output, pulldown  estop_sw	ESTOP_SW */
-		    0x02c 0x2f	/* P8.17  GPIO0_27 input             estop	ESTOP */
-		    0x1ac 0x07	/* P9.25  GPIO3_21 output, pulldown  led	LED */
+		    0x07c 0x07	/* P8.26  GPIO1_29 output, pulldown  estop_sw */
+		    0x02c 0x2f	/* P8.17  GPIO0_27 input             estop */
+		    0x1ac 0x07	/* P9.25  GPIO3_21 output, pulldown  led */
 
 		    0x024 0x07	/* P8.13  GPIO0_23 output, pulldown  stepper_x	step_pin */
 		    0x03c 0x07	/* P8.15  GPIO1_15 output, pulldown  stepper_y	step_pin */
